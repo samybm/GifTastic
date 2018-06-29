@@ -1,0 +1,68 @@
+
+body {
+    background-image: url("https://cdn-images-1.medium.com/max/1200/1*cWCjyB89P4sUy26XqpF10A.jpeg");
+    background-repeat: no-repeat;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+img.gif {
+    margin: .3em .3em;
+    border: .18em solid #000000;
+}
+
+.container {
+    align-items: center;
+    position: relative;
+    width: 100%;
+    max-width: 960px; 
+}
+
+
+#buttons {
+    margin-top: 3em;
+    margin-bottom: 3em;
+    text-align: center;
+}
+
+button.char {
+    margin-left: .2em;
+    margin-right: .2em;
+    margin-top: .3em;
+    margin-bottom: .3em;
+    border: .07em solid #000000;
+}
+
+#form-container {
+    display: table;
+    width: 100%;
+}
+
+#char-form {
+    display: table-cell;
+    text-align: center;
+}
+
+label#search-label {
+    color: #0f0be2;
+    font-size: 100px;
+}
+
+input[type=text] {
+    border: 1px solid #000000;
+}
+
+input#addChar {
+    border: .07em solid #000000;
+}
+
+#gif-view {
+    max-height: 400px;
+    height: 400px;
+}
+
+.gif {
+    display: inline;
+}
